@@ -1,0 +1,21 @@
+{
+    "name": "greenmachine",
+    "displayName": "GreenMachine",
+    "description": "An impractical theme meant to match my Arch Linux rice. Based primarily around the accent #4bc98a",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GreenMachine",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GreenMachine-color-theme.json"
+            }
+        ]
+    }
+}
